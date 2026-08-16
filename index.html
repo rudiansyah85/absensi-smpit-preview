@@ -1,60 +1,233 @@
+```html
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Absensi Online SMPIT Al Ikhlas Tebas</title>
 
   <meta name="description"
-        content="Absensi Online Guru SMPIT Al Ikhlas Tebas">
+        content="Absensi Online Guru SMPIT Al Ikhlas Tebas - Absensi masuk, pulang, jadwal mengajar, jurnal pembelajaran dan rekap kehadiran.">
 
-  <!-- PREVIEW WHATSAPP -->
+  <!-- PREVIEW WHATSAPP / FACEBOOK -->
+  <meta property="og:type" content="website">
+
   <meta property="og:title"
-        content="Absensi Online SMPIT Al Ikhlas Tebas">
+        content="ABSENSI ONLINE SMPIT AL IKHLAS TEBAS">
 
   <meta property="og:description"
         content="Sistem Absensi Online Guru SMPIT Al Ikhlas Tebas">
 
   <meta property="og:image"
-        content="https://raw.githubusercontent.com/rudiansyah85/absensi-smpit-preview/main/absensi_preview_whatsapp.png">
+        content="https://rudiansyah85.github.io/absensi-smpit-preview/absensi_preview_whatsapp.png">
 
-  <meta property="og:image:type"
-        content="image/png">
+  <meta property="og:image:width" content="1200">
 
-  <meta property="og:image:width"
-        content="1200">
+  <meta property="og:image:height" content="630">
 
-  <meta property="og:image:height"
-        content="630">
+  <meta property="og:url"
+        content="https://rudiansyah85.github.io/absensi-smpit-preview/">
 
-  <meta property="og:type"
-        content="website">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="ABSENSI ONLINE SMPIT AL IKHLAS TEBAS">
+
+  <meta name="twitter:description"
+        content="Sistem Absensi Online Guru SMPIT Al Ikhlas Tebas">
+
+  <meta name="twitter:image"
+        content="https://rudiansyah85.github.io/absensi-smpit-preview/absensi_preview_whatsapp.png">
 
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
-      background: #f1f8f5;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(135deg, #eaf7f0, #f7fbf9);
+      color: #164d35;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
     }
 
-    .loading {
-      margin-top: 20vh;
-      color: #176b43;
-      font-size: 22px;
+    .container {
+      width: 100%;
+      max-width: 720px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 24px;
+      padding: 24px;
+      box-shadow: 0 12px 40px rgba(0, 80, 45, 0.12);
+      text-align: center;
+      border: 1px solid #dcefe5;
+    }
+
+    .logo {
+      width: 100%;
+      max-width: 560px;
+      border-radius: 18px;
+      display: block;
+      margin: 0 auto 22px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      font-weight: 800;
+      color: #096b3b;
+    }
+
+    .subtitle {
+      margin: 0 auto 22px;
+      color: #66756d;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .features {
+      text-align: left;
+      background: #f3faf6;
+      border-radius: 16px;
+      padding: 18px 22px;
+      margin-bottom: 24px;
+    }
+
+    .features div {
+      padding: 7px 0;
+      font-size: 15px;
+      color: #285a42;
+    }
+
+    .button {
+      display: inline-block;
+      width: 100%;
+      max-width: 430px;
+      padding: 16px 24px;
+      border-radius: 14px;
+      background: #087f45;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
       font-weight: bold;
+      box-shadow: 0 7px 18px rgba(8, 127, 69, 0.25);
+      transition: 0.2s;
+    }
+
+    .button:hover {
+      background: #056936;
+      transform: translateY(-1px);
+    }
+
+    .note {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #7a8780;
+      line-height: 1.5;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #98a49e;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 12px;
+      }
+
+      .card {
+        padding: 18px;
+        border-radius: 20px;
+      }
+
+      h1 {
+        font-size: 23px;
+      }
+
+      .subtitle {
+        font-size: 14px;
+      }
     }
   </style>
-
-  <script>
-    window.location.href =
-      "https://script.google.com/macros/s/AKfycbyDaK_SUu2dGCW7nFaP3LNwI4uKuwS-5asmleqIr5EbiXaRkfSwYH28H5U_XQYGvXfEGQ/exec;
-  </script>
 </head>
 
 <body>
-  <div class="loading">
-    Membuka Absensi Online SMPIT Al Ikhlas Tebas...
+
+  <div class="container">
+
+    <div class="card">
+
+      <!-- GAMBAR PREVIEW -->
+      <img
+        class="logo"
+        src="absensi_preview_whatsapp.png"
+        alt="Absensi Online SMPIT Al Ikhlas Tebas">
+
+      <h1>
+        ABSENSI ONLINE<br>
+        SMPIT AL IKHLAS TEBAS
+      </h1>
+
+      <p class="subtitle">
+        Sistem Absensi Online Guru<br>
+        SMPIT Al Ikhlas Tebas
+      </p>
+
+      <div class="features">
+
+        <div>✅ Absensi Masuk & Pulang</div>
+
+        <div>📚 Jadwal Mengajar</div>
+
+        <div>📝 Jurnal Pembelajaran</div>
+
+        <div>📊 Rekap Kehadiran</div>
+
+        <div>🏫 Sistem Digital SMPIT Al Ikhlas Tebas</div>
+
+      </div>
+
+      <!--
+        =====================================================
+        GANTI URL DI BAWAH INI
+        DENGAN URL /exec GOOGLE APPS SCRIPT ANDA
+        =====================================================
+      -->
+
+      <a
+        class="button"
+        https://script.google.com/macros/s/AKfycbyDaK_SUu2dGCW7nFaP3LNwI4uKuwS-5asmleqIr5EbiXaRkfSwYH28H5U_XQYGvXfEGQ/exec
+        target="_blank"
+        rel="noopener noreferrer">
+
+        🚀 BUKA APLIKASI ABSENSI
+
+      </a>
+
+      <div class="note">
+        Tekan tombol di atas untuk masuk ke aplikasi
+        Absensi Online SMPIT Al Ikhlas Tebas.
+      </div>
+
+      <div class="footer">
+        © SMPIT Al Ikhlas Tebas
+      </div>
+
+    </div>
+
   </div>
+
 </body>
 </html>
+```
